@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    
+}
 .container {
     margin: 0 166px;
 }
@@ -5,4 +9,52 @@
     background-image: url(../images/bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
