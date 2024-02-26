@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Open Sans", sans-serif;
     
 }
 .container {
@@ -15,10 +16,46 @@ body {
     padding-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .nav-item {
     color: #fff;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #ffffff ;
+    padding-right: 10px;
+    height: 50px;
+}
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #ff7400;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
 }
 
 
@@ -44,17 +81,3 @@ body {
 
 
 
-
-
-
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
