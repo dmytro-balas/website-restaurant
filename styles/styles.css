@@ -1,0 +1,8 @@
+.container {
+    margin: 0 166px;
+}
+.header {
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
